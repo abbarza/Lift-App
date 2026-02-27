@@ -5,3 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/lift-app/',
 })
+export default {
+  base: '/Lift-App/', // This MUST match your repository name
+  // ... rest of your config
+}
